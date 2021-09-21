@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BancodeTiempo</string>
+    <string name="registroBDT" translatable="false">Registrarse con BDT</string>
+    <string name="registroFB" translatable="false">Registrarse con Facebook</string>
+    <string name="registroG" translatable="false">Registrarse con Google</string>
+    <string name="iniciarsesion" translatable="false">Iniciar Sesión</string>
+    <string name="bienvenida" translatable="false">Banco de Tiempo</string>
+    <string name="logoBDT" translatable="false">Reloj de bienvenida</string>
+    <string name="nombreLogin" translatable="false">Nombre</string>
+    <string name="passwordLogin" translatable="false">Contraseña</string>
+
+</resources>
