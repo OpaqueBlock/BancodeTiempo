@@ -14,5 +14,14 @@
     <string name="correo" translatable="false">Correo</string>
     <string name="confirmaContra" translatable="false">Confirma contraseña</string>
     <string name="registrarse" translatable="false">Regístrate</string>
+    <string name="validacion" translatable="false">Verificación</string>
+    <string name="msgValidacion" translatable="false">Ingresa el código que se envió por correo</string>
+    <string name="codigoVeri" translatable="false">Ingresa el código </string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="nuevoCodigo" translatable="false"><a href="https://www.youtube.com/watch?v=R0H0X0KXzbA">Enviar código nuevamente</a></string>
+    <string name="usuario" translatable="false">Nombre del usuario</string>
+    <string name="horasRealizar" translatable="false">Puedes realizar horas</string>
+    <string name="horasRecibir" translatable="false">Puedes recibir horas</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
