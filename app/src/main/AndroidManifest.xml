@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
-        <activity android:name=".PaginaPrincipal"></activity>
+        <activity
+            android:name=".DatosUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilUsuario"
+            android:exported="true" />
+        <activity android:name=".PaginaPrincipal" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

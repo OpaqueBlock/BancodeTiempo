@@ -14,5 +14,16 @@
     <string name="correo" translatable="false">Correo</string>
     <string name="confirmaContra" translatable="false">Confirma contraseña</string>
     <string name="registrarse" translatable="false">Regístrate</string>
+    <string name="nombreUsuario" translatable="false">Nombre de Usuario</string>
+    <string name="datosUsuario" translatable="false">Datos del Usuario</string>
+    <string name="documentosUsuario" translatable="false">Documentos / Certificados</string>
+    <string name="apellidoMaterno" translatable="false">Apellido Materno</string>
+    <string name="apellidoPaterno" translatable="false">Apellido Paterno</string>
+    <string name="direccion" translatable="false">Dirección</string>
+    <string name="municipio" translatable="false">Municipio</string>
+    <string name="codigoPostal" translatable="false">Código Postal</string>
+    <string name="ciudad" translatable="false">Ciudad</string>
+    <string name="nombres" translatable="false">Nombre(s)</string>
+    <string name="nacimiento" translatable="false">Nacimiento</string>
 
 </resources>
