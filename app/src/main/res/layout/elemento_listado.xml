@@ -97,6 +97,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginEnd="230dp"
                 android:layout_marginRight="148dp"
+                android:onClick="goDetails"
                 android:text="detalles"
                 android:textSize="10sp"
                 android:textStyle="bold" />

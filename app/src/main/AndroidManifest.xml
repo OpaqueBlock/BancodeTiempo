@@ -12,12 +12,8 @@
         android:theme="@style/Theme.BancodeTiempo">
         <activity
             android:name=".DetallesOfertas"
+            android:parentActivityName=".ElementoListado"
             android:exported="true" />
-        <activity
-            android:name=".test"
-            android:exported="true"
-            android:label="@string/title_activity_test"
-            android:theme="@style/Theme.BancodeTiempo.NoActionBar" />
         <activity
             android:name=".MenuTemporal"
             android:exported="true" />
@@ -29,18 +25,12 @@
             android:name=".PaginaVerificacion"
             android:parentActivityName=".PaginaPrincipal"
             android:exported="true">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".PaginaPrincipal" />
         </activity>
 
         <activity
             android:name=".PaginaPrincipal"
             android:parentActivityName=".Login"
             android:exported="true">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Login" />
         </activity>
 
         <activity
@@ -57,7 +47,9 @@
             android:exported="true" />
         <activity
             android:name=".FiltroOfertas"
-            android:exported="true" />
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true">
+        </activity>
         <activity
             android:name=".DocumentosUsuario"
             android:exported="true" />
@@ -72,10 +64,11 @@
             android:exported="true" />
         <activity
             android:name=".Login"
-            android:exported="true"></activity>
+            android:exported="true"/>
         <activity
             android:name=".listadoOfertas"
-            android:exported="true" />
+            android:parentActivityName=".FiltroOfertas"
+            android:exported="true"/>
         <activity
             android:name=".PaginaNavegacion"
             android:exported="true" />
