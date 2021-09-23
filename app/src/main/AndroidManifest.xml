@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bancodetiempo">
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the "MyLocation" functionality.
-    -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
+        android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -18,20 +13,31 @@
         <activity
             android:name=".ui.PaginaFavoritos"
             android:exported="true" />
-
+       <activity
+            android:name=".DetallesOfertas"
+            android:parentActivityName=".ElementoListado"
+            android:exported="true" />
         <activity
-            android:name=".MapsActivity"
-            android:exported="true"
-            android:label="@string/title_activity_maps" />
+            android:name=".MenuTemporal"
+            android:exported="true" />
         <activity
             android:name=".PaginaInicio"
             android:exported="true" />
+
         <activity
             android:name=".PaginaVerificacion"
-            android:exported="true" />
-        <activity android:name=".PaginaPrincipal" />
+            android:parentActivityName=".PaginaPrincipal"
+            android:exported="true">
+        </activity>
+
         <activity
-            android:name=".MainActivity"
+            android:name=".PaginaPrincipal"
+            android:parentActivityName=".Login"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Bienvenida"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,12 +49,11 @@
             android:name=".Ajustes"
             android:exported="true" />
         <activity
-            android:name=".FiltroOfertas"
-            android:exported="true" />
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true"/>
         <activity
             android:name=".DocumentosUsuario"
             android:exported="true" />
-
         <activity
             android:name=".DatosUsuario"
             android:exported="true" />
@@ -64,12 +69,16 @@
         <activity
             android:name=".PaginaNavegacion"
             android:exported="true" />
-
         <activity
             android:name=".NuevaOferta"
             android:parentActivityName=".MenuTemporal"
-            android:exported="true">
-        </activity>
+            android:exported="true"/>
+       <activity
+            android:parentActivityName=".FiltroOfertas"
+            android:exported="true"/>
+        <activity
+            android:name=".PaginaNavegacion"
+            android:exported="true" />
     </application>
 
 </manifest>

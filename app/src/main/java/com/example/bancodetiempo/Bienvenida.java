@@ -3,13 +3,17 @@ package com.example.bancodetiempo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
-public class PaginaInicio extends AppCompatActivity {
+public class Bienvenida extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bienvenida);
+    }
 
-        setContentView(R.layout.activity_pagina_inicio);
+    public void boton(View view){
+        setContentView(R.layout.activity_login);
     }
 }

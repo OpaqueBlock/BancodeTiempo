@@ -13,10 +13,14 @@ public class MenuTemporal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_temporal);
     }
-
+  
     public void createOffer(View view){
         Intent intent= new Intent(MenuTemporal.this,NuevaOferta.class);
         startActivity(intent);
     }
 
+    public void goList(View view){
+        Intent intent=new Intent(MenuTemporal.this, FiltroOfertas.class);
+        startActivity(intent);
+    }
 }

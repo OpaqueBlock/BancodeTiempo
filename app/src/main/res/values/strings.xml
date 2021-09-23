@@ -10,23 +10,69 @@
     <string name="passwordLogin" translatable="false">Contraseña</string>
     <string name="registroReg" translatable="false">Registro</string>
     <string name="registroTeryPol" translatable="false">Acepto las condiciones de uso y la política de privacidad.</string>
-    <string name="usuario" translatable="false">Usuario</string>
     <string name="correo" translatable="false">Correo</string>
     <string name="confirmaContra" translatable="false">Confirma contraseña</string>
     <string name="registrarse" translatable="false">Regístrate</string>
+    <string name="nombreUsuario" translatable="false">Nombre de Usuario</string>
+    <string name="datosUsuario" translatable="false">Datos del Usuario</string>
+    <string name="documentosUsuario" translatable="false">Documentos / Certificados</string>
+    <string name="apellidoMaterno" translatable="false">Apellido Materno</string>
+    <string name="apellidoPaterno" translatable="false">Apellido Paterno</string>
+    <string name="direccion" translatable="false">Dirección</string>
+    <string name="municipio" translatable="false">Municipio</string>
+    <string name="codigoPostal" translatable="false">Código Postal</string>
+    <string name="ciudad" translatable="false">Ciudad</string>
+    <string name="nombres" translatable="false">Nombre(s)</string>
+    <string name="nacimiento" translatable="false">Nacimiento</string>
+    <string name="ine" translatable="false">INE *</string>
+    <string name="comprobanteDomicilio" translatable="false">Comprobante de Domicilio *</string>
+    <string name="certificado" translatable="false">Certificado</string>
+    <string name="cartaPenal" translatable="false">Carta de Antecendentes no Penales *</string>
+    <string name="eligeDoc" translatable="false">Elige Documento...</string>
+    <string name="busquedaFiltro" translatable="false">Ingresa una Categoría</string>
+    <string name="topCategorias" translatable="false">Top Categorías</string>
+  
+    //Nueva Oferta
+    <string name="upload" translatable="false">Subir</string>
+    <string name="nomOfer" translatable="false">Nombre de la oferta</string>
+    <string name="trabajo" translatable="false">Tipo de trabajo</string>
+    <string name="ubicacion" translatable="false">Ubicacion</string>
+    <string name="descripcion" translatable="false">Breve descripcion de la oferta.</string>
+    <string name="imgoferta" translatable="false">Imagen de la oferta</string>
+    <string-array name="tipoOferta">
+        <item>Carpintería</item>
+        <item>Repostería</item>
+        <item>Panadería</item>
+    </string-array>
+    <string-array name="ubicacionOferta">
+        <item>Coyotepec</item>
+        <item>Acolman</item>
+        <item>Tenancingo</item>
+    </string-array>
+
+    //Ajustes
+    <string name="software" translatable="false">Información de Software</string>
+    <string name="terycon" translatable="false">Términos y condiciones</string>
+    <string name="legal" translatable="false">Legal</string>
+    <string name="faq" translatable="false">Preguntas frecuentes</string>
+    <string name="manual" translatable="false">Manual de aplicación</string>
+
+    //DetallesOfertas
+    <string name="calEstrellas" translatable="false">4.7(13)</string>
+    <string name="empleo" translatable="false">Carpintero</string>
+    <string name="descTrabajo" translatable="false">Descripción de prueba</string>
+    <string name="horarios" translatable="false">Horarios Disponibles</string>
+    <string name="botonAceptar" translatable="false">Aceptar</string>
+    <string name="horario1" translatable="false">Lunes a Viernes de 8:00 a 13:00</string>
+
+    //Bienvenida
+    <string name="start" translatable="false">Comenzar</string>
+
     <string name="validacion" translatable="false">Verificación</string>
     <string name="msgValidacion" translatable="false">Ingresa el código que se envió por correo</string>
     <string name="codigoVeri" translatable="false">Ingresa el código </string>
     <string name="entrar" translatable="false">Entrar</string>
     <string name="nuevoCodigo" translatable="false"><a href="https://www.youtube.com/watch?v=R0H0X0KXzbA">Enviar código nuevamente</a></string>
-    <string name="horasRealizar" translatable="false">Puedes realizar horas</string>
-    <string name="horasRecibir" translatable="false">Puedes recibir horas</string>
-    <string name="title_activity_maps" translatable="false">MapsActivity</string>
-    <string name="title_activity_pagina_menu_principal" translatable="false">PaginaMenuPrincipal</string>
-    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
-    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
-    <string name="nav_header_title" translatable="false">Android Studio</string>
-    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings" translatable="false">Settings</string>
 
@@ -40,14 +86,11 @@
     <string name="servicioId" translatable="false">Nombre del servicio</string>
     <string name="contacto" translatable="false">Ofertante</string>
     <string name="contratar" translatable="false">Contratar nuevamente</string>
-    <string name="title_activity_menu_navegacion" translatable="false">MenuNavegacion</string>
-    <string name="title_activity_pagina_navegacion" translatable="false">PaginaNavegacion</string>
-
-    <string name="nombreUsuario" translatable="false">Nombre de usuario</string>
 
     <string name="horasHacer" translatable="false">Estatus para realizar horas</string>
     <string name="horasR" translatable="false">Estatus para recibir horas</string>
 
+    //Menu
 
 
 </resources>
