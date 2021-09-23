@@ -31,7 +31,7 @@
     <string name="eligeDoc" translatable="false">Elige Documento...</string>
     <string name="busquedaFiltro" translatable="false">Ingresa una Categoría</string>
     <string name="topCategorias" translatable="false">Top Categorías</string>
-
+  
     //Nueva Oferta
     <string name="upload" translatable="false">Subir</string>
     <string name="nomOfer" translatable="false">Nombre de la oferta</string>
@@ -56,6 +56,14 @@
     <string name="legal" translatable="false">Legal</string>
     <string name="faq" translatable="false">Preguntas frecuentes</string>
     <string name="manual" translatable="false">Manual de aplicación</string>
+
+    //DetallesOfertas
+    <string name="calEstrellas" translatable="false">4.7(13)</string>
+    <string name="empleo" translatable="false">Carpintero</string>
+    <string name="descTrabajo" translatable="false">Descripción de prueba</string>
+    <string name="horarios" translatable="false">Horarios Disponibles</string>
+    <string name="botonAceptar" translatable="false">Aceptar</string>
+    <string name="horario1" translatable="false">Lunes a Viernes de 8:00 a 13:00</string>
 
     //Bienvenida
     <string name="start" translatable="false">Comenzar</string>
