@@ -51,11 +51,7 @@
         <activity
             android:name=".Ajustes"
             android:parentActivityName=".MenuTemporal"
-            android:exported="true" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MenuTemporal" />
-        </activity>
+            android:exported="true" />
 
         <activity
             android:name=".FiltroOfertas"
