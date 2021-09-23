@@ -1,6 +1,11 @@
 package com.example.bancodetiempo;
 
-public class ElementoListado {
+import android.content.Intent;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ElementoListado extends AppCompatActivity {
     public String nombre;
     public String trabajo;
     public String foto;
@@ -34,5 +39,11 @@ public class ElementoListado {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void goDetails(View view){
+        Intent intent=new Intent(ElementoListado.this, DetallesOfertas.class);
+        startActivity(intent);
+
     }
 }
