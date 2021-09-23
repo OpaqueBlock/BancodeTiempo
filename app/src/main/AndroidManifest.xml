@@ -10,12 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
         <activity
+
             android:name=".test"
             android:exported="true"
             android:label="@string/title_activity_test"
             android:theme="@style/Theme.BancodeTiempo.NoActionBar" />
         <activity
             android:name=".Ajustes"
+
+            android:name=".FiltroOfertas"
+            android:exported="true" />
+        <activity
+            android:name=".DocumentosUsuario"
+
             android:exported="true" />
         <activity
             android:name=".NuevaOferta"
