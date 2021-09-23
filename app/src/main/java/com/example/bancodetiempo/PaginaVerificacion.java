@@ -15,10 +15,10 @@ public class PaginaVerificacion extends AppCompatActivity {
     }
 
     public void goStart(View view){
-        Intent intent=new Intent(PaginaVerificacion.this, PaginaInicio.class);
+        Intent intent=new Intent(PaginaVerificacion.this, MenuTemporal.class);
         startActivity(intent);
         finish();
-        setContentView(R.layout.activity_pagina_inicio);
+        setContentView(R.layout.activity_menu_temporal);
 
 
     }

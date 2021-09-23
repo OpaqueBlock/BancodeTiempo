@@ -19,6 +19,7 @@
             android:exported="true" />
         <activity
             android:name=".MenuTemporal"
+            android:parentActivityName=".Login"
             android:exported="true" />
         <activity
             android:name=".PaginaInicio"
@@ -32,7 +33,6 @@
 
         <activity
             android:name=".PaginaPrincipal"
-            android:parentActivityName=".Login"
             android:exported="true">
         </activity>
 
@@ -53,12 +53,15 @@
             android:exported="true"/>
         <activity
             android:name=".DocumentosUsuario"
+            android:parentActivityName=".PerfilUsuario"
             android:exported="true" />
         <activity
             android:name=".DatosUsuario"
+            android:parentActivityName=".PerfilUsuario"
             android:exported="true" />
         <activity
             android:name=".PerfilUsuario"
+            android:parentActivityName=".MenuTemporal"
             android:exported="true" />
         <activity
             android:name=".Login"
