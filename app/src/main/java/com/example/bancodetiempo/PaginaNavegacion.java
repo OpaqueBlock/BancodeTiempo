@@ -1,10 +1,8 @@
 package com.example.bancodetiempo;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -20,7 +18,6 @@ public class PaginaNavegacion extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityPaginaNavegacionBinding binding;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
