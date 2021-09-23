@@ -19,9 +19,24 @@
     <string name="codigoVeri" translatable="false">Ingresa el código </string>
     <string name="entrar" translatable="false">Entrar</string>
     <string name="nuevoCodigo" translatable="false"><a href="https://www.youtube.com/watch?v=R0H0X0KXzbA">Enviar código nuevamente</a></string>
-    <string name="usuario" translatable="false">Nombre del usuario</string>
     <string name="horasRealizar" translatable="false">Puedes realizar horas</string>
     <string name="horasRecibir" translatable="false">Puedes recibir horas</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_pagina_menu_principal">PaginaMenuPrincipal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="misOfertas">Mis Ofertas publicadas</string>
+    <string name="favoritos">Mis Servicios Favoritos</string>
+    <string name="servicioId">Nombre del servicio</string>
+    <string name="contacto">Ofertante</string>
+    <string name="contratar">Contratar nuevamente</string>
 </resources>
