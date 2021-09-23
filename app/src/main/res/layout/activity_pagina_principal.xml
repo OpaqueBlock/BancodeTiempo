@@ -7,10 +7,11 @@
     tools:context=".PaginaPrincipal">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/registrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:onClick="goVerification"
         android:text="@string/registrarse"
         app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
@@ -71,7 +72,7 @@
         android:ems="10"
         android:hint="@string/confirmaContra"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/registrar"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
@@ -100,7 +101,8 @@
         android:layout_marginTop="-32dp"
         android:text="@string/registroTeryPol"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintStart_toStartOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintEnd_toEndOf="@+id/registrar"
+        app:layout_constraintStart_toStartOf="@+id/registrar"
+        app:layout_constraintTop_toBottomOf="@+id/registrar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

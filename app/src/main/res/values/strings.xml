@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BancodeTiempo</string>
+    <string name="app_name">Banco de Tiempo</string>
     <string name="registroBDT" translatable="false">Registrarse con BDT</string>
     <string name="registroFB" translatable="false">Registrarse con Facebook</string>
     <string name="registroG" translatable="false">Registrarse con Google</string>
@@ -10,7 +10,6 @@
     <string name="passwordLogin" translatable="false">Contraseña</string>
     <string name="registroReg" translatable="false">Registro</string>
     <string name="registroTeryPol" translatable="false">Acepto las condiciones de uso y la política de privacidad.</string>
-    <string name="usuario" translatable="false">Usuario</string>
     <string name="correo" translatable="false">Correo</string>
     <string name="confirmaContra" translatable="false">Confirma contraseña</string>
     <string name="registrarse" translatable="false">Regístrate</string>
@@ -32,9 +31,7 @@
     <string name="eligeDoc" translatable="false">Elige Documento...</string>
     <string name="busquedaFiltro" translatable="false">Ingresa una Categoría</string>
     <string name="topCategorias" translatable="false">Top Categorías</string>
-
-<<<<<<< Updated upstream
-=======
+  
     //Nueva Oferta
     <string name="upload" translatable="false">Subir</string>
     <string name="nomOfer" translatable="false">Nombre de la oferta</string>
@@ -59,17 +56,6 @@
     <string name="legal" translatable="false">Legal</string>
     <string name="faq" translatable="false">Preguntas frecuentes</string>
     <string name="manual" translatable="false">Manual de aplicación</string>
-    <string name="title_activity_test">test</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
 
     //DetallesOfertas
     <string name="calEstrellas" translatable="false">4.7(13)</string>
@@ -79,5 +65,32 @@
     <string name="botonAceptar" translatable="false">Aceptar</string>
     <string name="horario1" translatable="false">Lunes a Viernes de 8:00 a 13:00</string>
 
->>>>>>> Stashed changes
+    //Bienvenida
+    <string name="start" translatable="false">Comenzar</string>
+
+    <string name="validacion" translatable="false">Verificación</string>
+    <string name="msgValidacion" translatable="false">Ingresa el código que se envió por correo</string>
+    <string name="codigoVeri" translatable="false">Ingresa el código </string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="nuevoCodigo" translatable="false"><a href="https://www.youtube.com/watch?v=R0H0X0KXzbA">Enviar código nuevamente</a></string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Perfil de usuario</string>
+    <string name="menu_gallery" translatable="false">Consulta de ofertas</string>
+    <string name="menu_slideshow" translatable="false">Registro de ofertas</string>
+    <string name="menu_ajustes" translatable="false">Ajustes</string>
+
+    <string name="misOfertas" translatable="false">Mis Ofertas publicadas</string>
+    <string name="favoritos" translatable="false">Mis Servicios Favoritos</string>
+    <string name="servicioId" translatable="false">Nombre del servicio</string>
+    <string name="contacto" translatable="false">Ofertante</string>
+    <string name="contratar" translatable="false">Contratar nuevamente</string>
+
+    <string name="horasHacer" translatable="false">Estatus para realizar horas</string>
+    <string name="horasR" translatable="false">Estatus para recibir horas</string>
+
+    //Menu
+
+
 </resources>

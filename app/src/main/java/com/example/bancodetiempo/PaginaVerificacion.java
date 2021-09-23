@@ -6,17 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class PaginaPrincipal extends AppCompatActivity {
+public class PaginaVerificacion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_principal);
+        setContentView(R.layout.activity_pagina_verificacion);
     }
 
-    public void goVerification(View view){
-        Intent intent=new Intent(PaginaPrincipal.this, PaginaVerificacion.class);
+    public void goStart(View view){
+        Intent intent=new Intent(PaginaVerificacion.this, PaginaInicio.class);
         startActivity(intent);
-    }
+        finish();
+        setContentView(R.layout.activity_pagina_inicio);
 
+
+    }
 }
