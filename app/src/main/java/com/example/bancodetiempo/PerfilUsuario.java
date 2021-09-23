@@ -16,4 +16,8 @@ public class PerfilUsuario extends AppCompatActivity {
     public void goUserData(View view) {
         setContentView(R.layout.activity_datos_usuario);
     }
+
+    public void goUserDoc(View view) {
+        setContentView(R.layout.activity_documentos_usuario);
+    }
 }
