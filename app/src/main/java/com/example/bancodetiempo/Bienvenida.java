@@ -19,7 +19,7 @@ public class Bienvenida extends AppCompatActivity {
 
     public void getLogin (View view) {
         setContentView(R.layout.activity_login);
-
+    }
     public void boton(View view){
         setContentView(R.layout.activity_login);
     }
