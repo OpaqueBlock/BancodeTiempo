@@ -11,7 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
         <activity
+            android:name=".ui.PaginaFavoritos"
+            android:exported="true" />
+       <activity
             android:name=".DetallesOfertas"
+            android:parentActivityName=".ElementoListado"
             android:exported="true" />
         <activity
             android:name=".MenuTemporal"
@@ -45,14 +49,11 @@
             android:name=".Ajustes"
             android:exported="true" />
         <activity
-            android:name=".FiltroOfertas"
-            android:exported="true" />
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true"/>
         <activity
             android:name=".DocumentosUsuario"
             android:parentActivityName=".PerfilUsuario"
-            android:exported="true" />
-        <activity
-            android:name=".NuevaOferta"
             android:exported="true" />
         <activity
             android:name=".DatosUsuario"
@@ -71,7 +72,16 @@
         <activity
             android:name=".PaginaNavegacion"
             android:exported="true" />
-
+        <activity
+            android:name=".NuevaOferta"
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true"/>
+       <activity
+            android:parentActivityName=".FiltroOfertas"
+            android:exported="true"/>
+        <activity
+            android:name=".PaginaNavegacion"
+            android:exported="true" />
     </application>
 
 </manifest>
