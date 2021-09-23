@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
         <activity
+            android:name=".Bienvenida"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".test"
             android:exported="true"
             android:label="@string/title_activity_test"
@@ -21,10 +29,8 @@
         <activity
             android:name=".FiltroOfertas"
             android:exported="true" />
-
         <activity
             android:name=".DocumentosUsuario"
-
             android:exported="true" />
         <activity
             android:name=".NuevaOferta"
@@ -37,13 +43,8 @@
             android:exported="true" />
         <activity android:name=".PaginaPrincipal" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
