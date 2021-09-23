@@ -26,4 +26,23 @@
     <string name="nombres" translatable="false">Nombre(s)</string>
     <string name="nacimiento" translatable="false">Nacimiento</string>
 
+    //Nueva Oferta
+    <string name="upload" translatable="false">Subir</string>
+    <string name="nomOfer" translatable="false">Nombre de la oferta</string>
+    <string name="trabajo" translatable="false">Tipo de trabajo</string>
+    <string name="ubicacion" translatable="false">Ubicacion</string>
+    <string name="descripcion" translatable="false">Breve descripcion de la oferta.</string>
+    <string name="imgoferta" translatable="false">Imagen de la oferta</string>
+    <string-array name="tipoOferta">
+        <item>Carpintería</item>
+        <item>Repostería</item>
+        <item>Panadería</item>
+    </string-array>
+    <string-array name="ubicacionOferta">
+        <item>Coyotepec</item>
+        <item>Acolman</item>
+        <item>Tenancingo</item>
+    </string-array>
+
+
 </resources>
