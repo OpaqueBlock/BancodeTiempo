@@ -10,7 +10,6 @@
     <string name="passwordLogin" translatable="false">Contraseña</string>
     <string name="registroReg" translatable="false">Registro</string>
     <string name="registroTeryPol" translatable="false">Acepto las condiciones de uso y la política de privacidad.</string>
-    <string name="usuario" translatable="false">Usuario</string>
     <string name="correo" translatable="false">Correo</string>
     <string name="confirmaContra" translatable="false">Confirma contraseña</string>
     <string name="registrarse" translatable="false">Regístrate</string>
@@ -32,7 +31,7 @@
     <string name="eligeDoc" translatable="false">Elige Documento...</string>
     <string name="busquedaFiltro" translatable="false">Ingresa una Categoría</string>
     <string name="topCategorias" translatable="false">Top Categorías</string>
-
+  
     //Nueva Oferta
     <string name="upload" translatable="false">Subir</string>
     <string name="nomOfer" translatable="false">Nombre de la oferta</string>
@@ -58,6 +57,14 @@
     <string name="faq" translatable="false">Preguntas frecuentes</string>
     <string name="manual" translatable="false">Manual de aplicación</string>
 
+    //DetallesOfertas
+    <string name="calEstrellas" translatable="false">4.7(13)</string>
+    <string name="empleo" translatable="false">Carpintero</string>
+    <string name="descTrabajo" translatable="false">Descripción de prueba</string>
+    <string name="horarios" translatable="false">Horarios Disponibles</string>
+    <string name="botonAceptar" translatable="false">Aceptar</string>
+    <string name="horario1" translatable="false">Lunes a Viernes de 8:00 a 13:00</string>
+
     //Bienvenida
     <string name="start" translatable="false">Comenzar</string>
 
@@ -66,14 +73,6 @@
     <string name="codigoVeri" translatable="false">Ingresa el código </string>
     <string name="entrar" translatable="false">Entrar</string>
     <string name="nuevoCodigo" translatable="false"><a href="https://www.youtube.com/watch?v=R0H0X0KXzbA">Enviar código nuevamente</a></string>
-    <string name="horasRealizar" translatable="false">Puedes realizar horas</string>
-    <string name="horasRecibir" translatable="false">Puedes recibir horas</string>
-    <string name="title_activity_maps" translatable="false">MapsActivity</string>
-    <string name="title_activity_pagina_menu_principal" translatable="false">PaginaMenuPrincipal</string>
-    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
-    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
-    <string name="nav_header_title" translatable="false">Android Studio</string>
-    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings" translatable="false">Settings</string>
 
@@ -87,12 +86,11 @@
     <string name="servicioId" translatable="false">Nombre del servicio</string>
     <string name="contacto" translatable="false">Ofertante</string>
     <string name="contratar" translatable="false">Contratar nuevamente</string>
-    <string name="title_activity_menu_navegacion" translatable="false">MenuNavegacion</string>
-    <string name="title_activity_pagina_navegacion" translatable="false">PaginaNavegacion</string>
 
     <string name="horasHacer" translatable="false">Estatus para realizar horas</string>
     <string name="horasR" translatable="false">Estatus para recibir horas</string>
 
+    //Menu
 
 
 </resources>
