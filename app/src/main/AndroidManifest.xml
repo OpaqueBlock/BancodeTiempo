@@ -18,22 +18,6 @@
         <activity
             android:name=".ui.PaginaFavoritos"
             android:exported="true" />
-        <activity
-            android:name=".PaginaMenuPrincipal"
-            android:exported="true"
-            android:label="@string/title_activity_pagina_menu_principal"
-            android:theme="@style/Theme.BancodeTiempo.NoActionBar" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
 
         <activity
             android:name=".MapsActivity"
@@ -54,6 +38,37 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ajustes"
+            android:exported="true" />
+        <activity
+            android:name=".FiltroOfertas"
+            android:exported="true" />
+        <activity
+            android:name=".DocumentosUsuario"
+            android:exported="true" />
+
+        <activity
+            android:name=".DatosUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true"/>
+        <activity
+            android:name=".listadoOfertas"
+            android:exported="true" />
+        <activity
+            android:name=".PaginaNavegacion"
+            android:exported="true" />
+
+        <activity
+            android:name=".NuevaOferta"
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true">
         </activity>
     </application>
 
