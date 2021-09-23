@@ -9,13 +9,13 @@
     tools:openDrawer="start">
 
     <include
-        android:id="@+id/app_bar_pagina_navegacion"
+        android:id="@+id/app_bar_pagina_navegacion1"
         layout="@layout/app_bar_pagina_navegacion"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <include
-        android:id="@+id/app_bar_pagina_navegacion"
+        android:id="@+id/app_bar_pagina_navegacion2"
         layout="@layout/app_bar_pagina_navegacion"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

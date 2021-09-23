@@ -24,7 +24,7 @@
         android:layout_marginTop="36dp"
         android:scaleX="1.2"
         android:scaleY="1.2"
-        android:text="@string/userName"
+        android:text="@string/nombreUsuario"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
@@ -35,38 +35,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
         android:text="@string/horasHacer"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/horasHacer"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:scaleX="3"
         android:scaleY="3"
         android:src="@android:drawable/presence_online"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:scaleX="3"
         android:scaleY="3"
         android:src="@android:drawable/presence_busy"
-        tools:layout_editor_absoluteX="291dp"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
         android:id="@+id/button"
@@ -84,7 +89,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/favoritos"
-        android:onClick="goFavorite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />

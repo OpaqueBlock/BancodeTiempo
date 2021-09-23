@@ -14,9 +14,6 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void goRegister(View view) {
-        setContentView(R.layout.content_test);
-    }
 
     public void goValidate(View view){
         setContentView(R.layout.activity_pagina_verificacion);
