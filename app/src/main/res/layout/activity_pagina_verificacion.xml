@@ -10,7 +10,7 @@
         android:id="@+id/verificarT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="52dp"
         android:scaleX="3"
         android:scaleY="3"
         android:text="@string/validacion"
@@ -67,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="215dp"
+        android:onClick="goStart"
         android:text="@string/entrar"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:layout_editor_absoluteX="158dp" />

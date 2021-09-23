@@ -13,10 +13,25 @@
         <activity
             android:name=".PaginaInicio"
             android:exported="true" />
+
         <activity
             android:name=".PaginaVerificacion"
-            android:exported="true" />
-        <activity android:name=".PaginaPrincipal" />
+            android:parentActivityName=".PaginaPrincipal"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaginaPrincipal" />
+        </activity>
+
+        <activity
+            android:name=".PaginaPrincipal"
+            android:parentActivityName=".Login"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+
         <activity
             android:name=".Bienvenida"
             android:exported="true">
