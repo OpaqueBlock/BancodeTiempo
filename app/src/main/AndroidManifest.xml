@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
         <activity
+            android:name=".test"
+            android:exported="true"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.BancodeTiempo.NoActionBar" />
+        <activity
             android:name=".Ajustes"
             android:exported="true" />
         <activity

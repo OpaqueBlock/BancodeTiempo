@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goRegister(View view) {
-        setContentView(R.layout.activity_pagina_principal);
+        setContentView(R.layout.content_test);
     }
 }
