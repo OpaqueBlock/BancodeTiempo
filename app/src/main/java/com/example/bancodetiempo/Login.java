@@ -22,4 +22,15 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_pagina_favoritos);
     }
 
+    public void goBDT(View view){
+        Intent intent=new Intent(Login.this, PaginaPrincipal.class);
+        startActivity(intent);
+
+
+    }
+
+    public void goInicio(View view){
+        setContentView(R.layout.activity_pagina_inicio);
+    }
+
 }
