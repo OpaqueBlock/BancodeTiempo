@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BancodeTiempo">
         <activity
+            android:name=".FiltroOfertas"
+            android:exported="true" />
+        <activity
+            android:name=".DocumentosUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".NuevaOferta"
+            android:exported="true" />
+        <activity
             android:name=".DatosUsuario"
             android:exported="true" />
         <activity
