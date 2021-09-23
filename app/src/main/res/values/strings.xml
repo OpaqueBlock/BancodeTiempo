@@ -33,4 +33,41 @@
     <string name="busquedaFiltro" translatable="false">Ingresa una Categoría</string>
     <string name="topCategorias" translatable="false">Top Categorías</string>
 
+    //Nueva Oferta
+    <string name="upload" translatable="false">Subir</string>
+    <string name="nomOfer" translatable="false">Nombre de la oferta</string>
+    <string name="trabajo" translatable="false">Tipo de trabajo</string>
+    <string name="ubicacion" translatable="false">Ubicacion</string>
+    <string name="descripcion" translatable="false">Breve descripcion de la oferta.</string>
+    <string name="imgoferta" translatable="false">Imagen de la oferta</string>
+    <string-array name="tipoOferta">
+        <item>Carpintería</item>
+        <item>Repostería</item>
+        <item>Panadería</item>
+    </string-array>
+    <string-array name="ubicacionOferta">
+        <item>Coyotepec</item>
+        <item>Acolman</item>
+        <item>Tenancingo</item>
+    </string-array>
+
+    //Ajustes
+    <string name="software" translatable="false">Información de Software</string>
+    <string name="terycon" translatable="false">Términos y condiciones</string>
+    <string name="legal" translatable="false">Legal</string>
+    <string name="faq" translatable="false">Preguntas frecuentes</string>
+    <string name="manual" translatable="false">Manual de aplicación</string>
+    <string name="title_activity_test">test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
 </resources>
