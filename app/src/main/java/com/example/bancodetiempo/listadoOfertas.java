@@ -23,10 +23,10 @@ public class listadoOfertas extends AppCompatActivity {
 
     public void init(){
         ofertas=new ArrayList<>();
-        ofertas.add(new ElementoListado("Pedro", "A", "#ff0000"));
-        ofertas.add(new ElementoListado("Sandra", "A", "#ff0000"));
+        ofertas.add(new ElementoListado("Marco Almazan", "Carpintero", "#ff0000"));
+        /*ofertas.add(new ElementoListado("Sandra", "A", "#ff0000"));
         ofertas.add(new ElementoListado("Pedro", "A", "#ffcd00"));
-        ofertas.add(new ElementoListado("Sandra", "A", "#ffcd00"));
+        ofertas.add(new ElementoListado("Sandra", "A", "#ffcd00"));*/
 
         AdaptadorListado lista=new AdaptadorListado(ofertas, this);
         RecyclerView recyclerView=findViewById(R.id.listaOfertas);

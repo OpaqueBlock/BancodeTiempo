@@ -49,7 +49,8 @@ public class Login extends AppCompatActivity {
             LoginResponse loginResponse = (LoginResponse) intent.getSerializableExtra("data");
             Log.e("TAG","msg----------------->" + loginResponse.getLoginApproval().toString());
             if (loginResponse.getLoginApproval() == 1){
-                setContentView(R.layout.activity_menu_temporal);
+                Intent menu = new Intent(Login.this, MenuTemporal.class);
+                startActivity(menu);
             }
         }
     }
