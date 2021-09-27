@@ -22,7 +22,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void goInicio(View view){
-        setContentView(R.layout.activity_pagina_inicio);
+        setContentView(R.layout.activity_menu_temporal);
     }
 
 }

@@ -2,6 +2,7 @@ package com.example.bancodetiempo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,10 +15,12 @@ public class PerfilUsuario extends AppCompatActivity {
     }
 
     public void goUserData(View view) {
-        setContentView(R.layout.activity_datos_usuario);
+        Intent intent=new Intent(PerfilUsuario.this, DatosUsuario.class);
+        startActivity(intent);
     }
 
     public void goUserDoc(View view) {
-        setContentView(R.layout.activity_documentos_usuario);
+        Intent intent=new Intent(PerfilUsuario.this, DocumentosUsuario.class);
+        startActivity(intent);
     }
 }

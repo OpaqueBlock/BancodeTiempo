@@ -12,7 +12,7 @@
         android:theme="@style/Theme.BancodeTiempo">
         <activity
             android:name=".DetallesOfertas"
-            android:parentActivityName=".ElementoListado"
+            android:parentActivityName=".listadoOfertas"
             android:exported="true" />
         <activity
             android:name=".MenuTemporal"
@@ -23,7 +23,7 @@
 
         <activity
             android:name=".PaginaVerificacion"
-            android:parentActivityName=".PaginaPrincipal"
+            android:parentActivityName=".MenuTemporal"
             android:exported="true">
         </activity>
 
@@ -44,6 +44,7 @@
         </activity>
         <activity
             android:name=".Ajustes"
+            android:parentActivityName=".MenuTemporal"
             android:exported="true" />
         <activity
             android:name=".FiltroOfertas"
@@ -51,24 +52,33 @@
             android:exported="true">
         </activity>
         <activity
-            android:name=".DocumentosUsuario"
-            android:exported="true" />
-        <activity
             android:name=".NuevaOferta"
-            android:exported="true" />
-        <activity
-            android:name=".DatosUsuario"
+            android:parentActivityName=".MenuTemporal"
             android:exported="true" />
         <activity
             android:name=".PerfilUsuario"
+            android:parentActivityName=".MenuTemporal"
+            android:exported="true" />
+        <activity
+            android:name=".DocumentosUsuario"
+            android:parentActivityName=".PerfilUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".DatosUsuario"
+            android:parentActivityName=".PerfilUsuario"
             android:exported="true" />
         <activity
             android:name=".Login"
-            android:exported="true"/>
+            android:exported="true"
+            android:parentActivityName=".Bienvenida"/>
+
+
+
         <activity
             android:name=".listadoOfertas"
             android:parentActivityName=".FiltroOfertas"
             android:exported="true"/>
+
         <activity
             android:name=".PaginaNavegacion"
             android:exported="true" />

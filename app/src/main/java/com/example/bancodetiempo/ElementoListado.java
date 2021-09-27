@@ -41,9 +41,5 @@ public class ElementoListado extends AppCompatActivity {
         this.color = color;
     }
 
-    public void goDetails(View view){
-        Intent intent=new Intent(ElementoListado.this, DetallesOfertas.class);
-        startActivity(intent);
 
-    }
 }

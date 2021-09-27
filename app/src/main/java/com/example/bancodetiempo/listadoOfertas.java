@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +25,7 @@ public class listadoOfertas extends AppCompatActivity {
 
     public void init(){
         ofertas=new ArrayList<>();
-        ofertas.add(new ElementoListado("Pedro", "A", "#ff0000"));
+        ofertas.add(new ElementoListado("Marco", "Carpintero", "#ff0000"));
         ofertas.add(new ElementoListado("Sandra", "A", "#ff0000"));
         ofertas.add(new ElementoListado("Pedro", "A", "#ffcd00"));
         ofertas.add(new ElementoListado("Sandra", "A", "#ffcd00"));
@@ -33,5 +35,10 @@ public class listadoOfertas extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(lista);
+    }
+    public void goDetails(View view){
+        Intent intent=new Intent(listadoOfertas.this, DetallesOfertas.class);
+        startActivity(intent);
+
     }
 }
